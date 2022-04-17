@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Stone Paper Scissors</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="game">
+    <h2 class="'game-title">Stone-Paper-Scissor</h2>
+    <div class="scoreboard">
+      <h3>Computer Choice: <span id="computer-choice"></span></h3>
+      <h3>Your Choice: <span id="user-choice"></span></h3>
+      <h3>Result: <span id="result"></span></h3>
+      <h3>Moves left: <span id="move-count"></span></h3>
+    </div>
+
+    <div class="userchoice">
+      <button classname="optionbtn" id="stone">STONE</button>
+      <button classname="optionbtn" id="paper">PAPER</button>
+      <button classname="optionbtn" id="scissors">SCISSOR</button>
+    </div>
+
+    <div class="result">
+      <h3>Player Score: <span id="player-score"></span></h3>
+      <h3>Computer Score: <span id="computer-score"></span></h3>
+      <h3 id="final-result"></h3>
+    </div>
+    <a id="restart" onclick="restart()" href="#">Start Over</a>
+  </div>
+  <script src="app.js" charset="utf-8"></script>
+</body>
+
+</html>

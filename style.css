@@ -1,0 +1,49 @@
+*{
+    border: 0;
+    margin: 0;
+    
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color:rgb(232, 79, 219);
+    color: white;
+    width: 100vw;
+    height: 100vh;
+}
+.scoreboard{
+    position: relative;
+    margin-top: 20px;
+    text-align: left;
+   
+}
+.userchoice{
+    margin-top: 20px;
+   
+    justify-content: space-between;
+}
+button{
+    width: 80px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: green;
+    color: white;
+
+}
+button:hover{
+    font-weight: 600;
+    cursor: pointer;
+}
+.result{
+    margin-top: 20px;
+}
+#restart{
+    padding-top: 20px;
+    margin-top: 30px; 
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+}
